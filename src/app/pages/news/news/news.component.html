@@ -1,0 +1,42 @@
+<div class="news-container">
+    <div class="buttons">
+        <i *ngIf="!saveNews" (click)="saveNews=true" class="far fa-bookmark"></i>
+        <i *ngIf="saveNews" (click)="saveNews=false" class="fas fa-bookmark"></i>
+    </div>
+    <div class="drop-menu" *ngIf="saveNews">
+        <span>Recientemente guardados</span>
+        <div class="news" *ngFor="let new of news">
+            <p>{{new.title}}</p>
+            <hr>
+        </div>
+    </div>
+</div>
+<div class="title-news">
+<hr>
+<h1>NOTICIAS DE LA ULTIMA HORA EN ARGETINA</h1>
+</div>
+<div class="articles-container">
+    <div class="articles" *ngFor="let article of articles">
+        <img src="{{article.urlToImage}}" alt="Noticia Imagen">
+        <p class="title">{{article.title}}</p>
+        <p class="description">{{article.description}}</p>
+        <a target="_blank" class="author" href="{{article.url}}">{{article.author}}</a>
+        <button (click)="saveNew(article)"><i class="fas fa-plus-circle"></i> Leer mas tarde</button>
+    </div>
+</div>
+
+<div class="title-news">
+    <hr>
+    <h1>NOTICIAS DE LA ULTIMA HORA EN ESTADOS UNIDOS</h1>
+    </div>
+
+<section>
+    <div class="articles-us-container">
+        <div class="articles-us" *ngFor="let articleUs of articlesUs">
+            <img id="img" src="{{articleUs.urlToImage}}" alt="Noticia Imagen">
+            <p class="title">{{articleUs.title}}</p>
+            <p class="description">{{articleUs.description}}</p>
+            <a target="_blank" class="author" href="{{articleUs.url}}">{{articleUs.author}}</a>
+        </div>
+    </div>
+</section>

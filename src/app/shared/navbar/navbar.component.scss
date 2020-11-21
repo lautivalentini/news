@@ -1,0 +1,13 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 1px 0px 15px  #007ECF;
+}
+
+.navbar h1 {
+    color: white;
+    text-shadow: 4px 4px 1px #007ECF;
+}
