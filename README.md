@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Video
 
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+[![ScreenShot](https://raw.githubusercontent.com/lautivalentini/news/main/news.PNG)](http://youtu.be/vt5fpE0bzSY)
 
 ## Development server
 
