@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Video
 
-[![ScreenShot](https://raw.githubusercontent.com/lautivalentini/news/main/news.PNG)](http://youtu.be/vt5fpE0bzSY)
+[![ScreenShot](https://raw.githubusercontent.com/lautivalentini/news/main/news.PNG)](https://drive.google.com/file/d/1bGJw8CI4pFSQEgysGCiTkU-cbiSRgzSa/view?usp=sharing)
 
 ## Development server
 
